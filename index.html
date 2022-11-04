@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<div class="page__container">
+				<h1 class="title">Flex</h1>
+				<h2 class="subtitle">Властивості FLEX-контейнера</h2>
+				<h2 class="subtitle">display: flex</h2>
+				<!-- FLEX-контейнер -->
+				<div class="block block-flex">
+					<!-- FLEX-елементи -->
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">display: inline-flex</h2>
+				<div class="block block-inline-flex">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-wrap: nowrap (за замовченням)</h2>
+				<div class="block block-flex-nowrap">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-wrap: wrap</h2>
+				<div class="block block-flex-wrap">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">justify-content: flex-start (за замовченням)</h2>
+				<div class="block block-justify-content-flex-start">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">justify-content: flex-end</h2>
+				<div class="block block-justify-content-flex-end">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">justify-content: center</h2>
+				<div class="block block-justify-content-center">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">justify-content: space-between</h2>
+				<div class="block block-justify-content-space-between">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">justify-content: space-around</h2>
+				<div class="block block-justify-content-space-around">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">justify-content: space-evenly</h2>
+				<div class="block block-justify-content-space-evenly">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">align-items: strech (за замовченням)</h2>
+				<div class="block block-align-items-strech">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">align-items: flex-start</h2>
+				<div class="block block-align-items-flex-start">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">align-items: flex-end</h2>
+				<div class="block block-align-items-flex-end">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">align-items: center</h2>
+				<div class="block block-align-items-center">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-direction: row (за замовченням)</h2>
+				<div class="block block-flex-direction-row">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-direction: row-reverse</h2>
+				<div class="block block-flex-direction-row-reverse">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-direction: column</h2>
+				<div class="block block-flex-direction-column">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-direction: column-reverse</h2>
+				<div class="block block-flex-direction-column-reverse">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">Властивості FLEX-елементів</h2>
+				<h2 class="subtitle">align-self: flex-start</h2>
+				<div class="block block-align-self-flex-start">
+					<div class="block__item">1</div>
+					<div class="block__item block__item-flex-start">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">align-self: center</h2>
+				<div class="block block-align-self-center">
+					<div class="block__item">1</div>
+					<div class="block__item block__item-center">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">align-self: flex-end</h2>
+				<div class="block block-align-self-flex-end">
+					<div class="block__item">1</div>
+					<div class="block__item block__item-flex-end">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-grow: 0 (за замовченням)</h2>
+				<div class="block block-flex-grow-false">
+					<div class="block__item">1</div>
+					<div class="block__item block__item-flex-grow-false">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-grow: 1</h2>
+				<div class="block block-flex-grow-true">
+					<div class="block__item">1</div>
+					<div class="block__item block__item-flex-grow-true">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-shrink: 1 (замовченням) + flex-basis</h2>
+				<div class="block block-flex-shrink-true">
+					<div class="block__item">1</div>
+					<div class="block__item block__item-flex-shrink-true">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">flex-shrink: 1 + flex-basis</h2>
+				<div class="block block-flex-shrink-false">
+					<div class="block__item">1</div>
+					<div class="block__item block__item-flex-shrink-false">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">gap</h2>
+				<div class="block block-gap">
+					<div class="block__item">1</div>
+					<div class="block__item">2</div>
+					<div class="block__item">3</div>
+					<div class="block__item">4</div>
+				</div>
+				<h2 class="subtitle">Приклад з відступами</h2>
+				<!-- FLEX - контейнер -->
+				<div class="row">
+					<!-- FLEX - елемент -->
+					<div class="column">
+						<!-- Контент -->
+						<div class="item">Колонка 1</div>
+					</div>
+					<!-- FLEX - елемент -->
+					<div class="column">
+						<!-- Контент -->
+						<div class="item">Колонка 2</div>
+					</div>
+					<!-- FLEX - елемент -->
+					<div class="column">
+						<!-- Контент -->
+						<div class="item">Колонка 3</div>
+					</div>
+					<!-- FLEX - елемент -->
+					<div class="column">
+						<!-- Контент -->
+						<div class="item">Колонка 4</div>
+					</div>
+				</div>
+				<h2 class="subtitle">order</h2>
+				<div class="block block-order">
+					<div class="block-order__item">1</div>
+					<div class="block-order__item">2</div>
+					<div class="block-order__item">3</div>
+					<div class="block-order__item">4</div>
+				</div>
+				<h2 class="subtitle">Приклад з текстом</h2>
+				<div class="text-block">
+					<h2 class="text-block__title">Я заголовок</h2>
+					<div class="text-block__text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, itaque. Blanditiis praesentium
+						beatae, provident omnis consequatur totam asperiores eligendi possimus ab animi et cupiditate,
+						dolorum consequuntur veritatis voluptate non nobis?
+					</div>
+					<a href="" class="text-block__link">Я посилання</a>
+				</div>
+				<h2 class="subtitle">Приклад з картками</h2>
+				<div class="cards">
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/image.jpeg" alt="">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+								consequuntur tempora maxime laudantium harum, pariatur officiis beatae nulla vel. Nesciunt
+								soluta quidem doloremque obcaecati! Perspiciatis maxime consequuntur sapiente error officia!
+							</div>
+							<a href="" class="item-card__button">Button</a>
+						</div>
+					</div>
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/image.jpeg" alt="">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+								consequuntur tempora maxime laudantium harum, pariatur officiis beatae nulla vel. Nesciunt
+								soluta quidem doloremque obcaecati! Perspiciatis maxime consequuntur sapiente error
+								officia!Nesciunt
+								soluta quidem doloremque obcaecati! Perspiciatis maxime consequuntur sapiente error officia!
+							</div>
+							<a href="" class="item-card__button">Button</a>
+						</div>
+					</div>
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/image.jpeg" alt="">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+								consequuntur tempora maxime laudantium harum, pariatur officiis beatae nulla vel. Nesciunt
+								soluta quidem doloremque obcaecati! Perspiciatis maxime consequuntur sapiente error
+								officia!Nesciunt
+								soluta quidem doloremque obcaecati! Perspiciatis maxime consequuntur sapiente error officia!
+							</div>
+							<a href="" class="item-card__button">Button</a>
+						</div>
+					</div>
+					<div class="cards__column">
+						<div class="cards__item item-card">
+							<div class="item-card__image">
+								<img src="img/image.jpeg" alt="">
+							</div>
+							<div class="item-card__text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+								consequuntur tempora maxime laudantium harum, pariatur officiis beatae nulla vel. Nesciunt
+								soluta quidem doloremque obcaecati! Perspiciatis maxime consequuntur sapiente error officia!
+							</div>
+							<a href="" class="item-card__button">Button</a>
+						</div>
+					</div>
+				</div>
+				<h2 class="subtitle">Приклад з текстом та псевдоелементом</h2>
+				<div class="link-block">
+					<a href="" class="link">Я посилання</a>
+				</div>
+				<h2 class="subtitle">Приклад з текстом та зображенням</h2>
+				<div class="object">
+					<div class="object__icon"></div>
+					<div class="object__text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, culpa, aperiam unde totam
+						doloremque sunt veniam cumque qui rerum alias, dicta id placeat illo mollitia deserunt nesciunt
+						exercitationem facilis velit!
+					</div>
+				</div>
+				<div class="example">
+					<div class="example__item item-example">
+						<div class="item-example__image">
+							<img src="img/image.jpeg" alt="">
+						</div>
+						<div class="item-example__text">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit illum eaque natus, necessitatibus
+							nobis at quia soluta. Repudiandae, eveniet pariatur quisquam velit eum magni est nemo dolorum non,
+							unde ipsa!
+						</div>
+					</div>
+					<div class="example__item item-example">
+						<div class="item-example__image">
+							<img src="img/image.jpeg" alt="">
+						</div>
+						<div class="item-example__text">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit illum eaque natus, necessitatibus
+							nobis at quia soluta. Repudiandae, eveniet pariatur quisquam velit eum magni est nemo dolorum non,
+							unde ipsa!
+						</div>
+					</div>
+					<div class="example__item item-example">
+						<div class="item-example__image">
+							<img src="img/image.jpeg" alt="">
+						</div>
+						<div class="item-example__text">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit illum eaque natus, necessitatibus
+							nobis at quia soluta. Repudiandae, eveniet pariatur quisquam velit eum magni est nemo dolorum non,
+							unde ipsa!
+						</div>
+					</div>
+					<div class="example__item item-example">
+						<div class="item-example__image">
+							<img src="img/image.jpeg" alt="">
+						</div>
+						<div class="item-example__text">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit illum eaque natus, necessitatibus
+							nobis at quia soluta. Repudiandae, eveniet pariatur quisquam velit eum magni est nemo dolorum non,
+							unde ipsa!
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer"> Я футер</footer>
+	</div>
+</body>
+
+</html>
